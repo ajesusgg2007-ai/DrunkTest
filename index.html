@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drunk Check Mini Tests</title>
+ 
+</head>
+<body>
+  <div class="container">
+    <h1>Drunkness Mini Test</h1>
+    <p>Complete three quick tests and get a rough estimate of how impaired you might be. This is only a fun check, not medical advice.</p>
+
+    <div class="test-card">
+      <h2>1. Reaction test</h2>
+      <p>How many seconds did it take you to click the button after the color changed?</p>
+      <button id="reactionStartBtn">Start reaction test</button>
+      <div id="reactionPrompt" style="display:none; margin-top:12px;">
+        <button id="reactionClickBtn">Click now!</button>
+      </div>
+      <p id="reactionResult" class="note"></p>
+    </div>
+
+    <div class="test-card">
+      <h2>2. Simple math</h2>
+      <p>Solve a basic problem under mild pressure.</p>
+      <label for="mathAnswer">What is 7 × 8 + 5?</label>
+      <input id="mathAnswer" type="number" min="0" placeholder="Enter your answer" />
+      <p id="mathResult" class="note"></p>
+    </div>
+
+    <div class="test-card">
+      <h2>3. Balance judgment</h2>
+      <p>Choose the option that best describes your steadiness right now.</p>
+      <select id="balanceSelect">
+        <option value="0">Select your feeling</option>
+        <option value="0">Feel steady and clear-headed</option>
+        <option value="1">Slightly unsteady, but manageable</option>
+        <option value="2">Noticeably wobbly</option>
+        <option value="3">Very unsteady or dizzy</option>
+      </select>
+    </div>
+
+    <button id="calculateBtn">Calculate estimate</button>
+
+    <div id="resultPanel" class="result" style="display:none;">
+      <p class="score" id="scoreText">Score: 0</p>
+      <p id="adviceText"></p>
+      <p class="note">This test is for entertainment and awareness only. Do not drive or make safety-critical decisions based on this page.</p>
+    </div>
+   
+</body>
+</html>
