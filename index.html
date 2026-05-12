@@ -26,13 +26,23 @@
     <div class="test-card">
       <h2>2. Simple math</h2>
       <p>Solve a basic problem under mild pressure.</p>
-      <label for="mathAnswer">What is 7 × 8 + 5?</label>
+      <p id="mathProblem"></p>
       <input id="mathAnswer" type="number" min="0" placeholder="Enter your answer" />
+      <button id="mathSubmit" type="button">Submit answer</button>
       <p id="mathResult" class="note"></p>
     </div>
 
     <div class="test-card">
-      <h2>3. Balance judgment</h2>
+      <h2>3. Image selection</h2>
+      <p>Select all images that contain the target object.</p>
+      <p id="imagePrompt"></p>
+      <div id="imageGrid" style="display:grid; grid-template-columns: repeat(3, minmax(80px, 1fr)); gap: 8px; margin-top: 10px;"></div>
+      <button id="imageSubmit" type="button">Submit selection</button>
+      <p id="imageResult" class="note"></p>
+    </div>
+
+    <div class="test-card">
+      <h2>4. Balance judgment</h2>
       <p>Choose the option that best describes your steadiness right now.</p>
       <select id="balanceSelect">
         <option value="" disabled selected hidden>Select your feeling</option>
