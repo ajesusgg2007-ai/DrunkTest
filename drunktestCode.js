@@ -69,35 +69,36 @@
         {
           prompt: 'Select all images that contain a bicycle seat.',
           items: [
-            { src: 'images/Dog1.png', alt: 'Star', contains: true },
-            { src: 'images/apple.png', alt: 'Apple', contains: false },
-            { src: 'images/star.png', alt: 'Star', contains: true },
-            { src: 'images/dog.png', alt: 'Dog', contains: false },
-            { src: 'images/star.png', alt: 'Star', contains: true },
-            { src: 'images/cloud.png', alt: 'Cloud', contains: false }
+            { src: 'images/Dog1.png',alt: '',  contains: false },
+            { src: 'images/silla1.jpg',alt: '', contains: true },
+            { src: 'images/silla2.jpg',alt: '', contains: true },
+            { src: 'images/dog2.png',alt: '',  contains: false },
+            { src: 'images/silla3.jpg',alt: '', contains: true },
+            { src: 'images/dog3.png',alt: '',  contains: false }
           ]
         },
         {
-          prompt: 'Select all images that contain a moon.',
+          prompt: 'Select all humans beings.',
           items: [
-            { src: 'images/moon.png', alt: 'Moon', contains: true },
-            { src: 'images/sun.png', alt: 'Sun', contains: false },
-            { src: 'images/moon.png', alt: 'Moon', contains: true },
-            { src: 'images/star.png', alt: 'Star', contains: false },
-            { src: 'images/moon.png', alt: 'Moon', contains: true },
-            { src: 'images/fire.png', alt: 'Fire', contains: false }
+            { src: 'images/human1.jpg', alt: '', contains: true },
+            { src: 'images/Robot1.png', alt: '', contains: false },
+            { src: 'images/human2.jpg', alt: '', contains: true },
+            { src: 'images/Robot2.jpg', alt: '', contains: false },
+            { src: 'images/human3.jpg', alt: '', contains: true },
+            { src: 'images/robot3.jpg', alt: '', contains: false }
           ]
         },
         {
-          prompt: 'Select all images that contain a heart.',
+          prompt: 'Select all images that contain a nowway woman',
           items: [
-            { src: 'images/heart.png', alt: 'Heart', contains: true },
-            { src: 'images/water.png', alt: 'Water', contains: false },
-            { src: 'images/heart.png', alt: 'Heart', contains: true },
-            { src: 'images/cactus.png', alt: 'Cactus', contains: false },
-            { src: 'images/heart.png', alt: 'Heart', contains: true },
-            { src: 'images/leaf.png', alt: 'Leaf', contains: false }
+            { src: 'images/N1.jpg', alt: '', contains: true },
+            { src: 'images/P1.jpg', alt: '', contains: false },
+            { src: 'images/N2.jpg', alt: '', contains: true },
+            { src: 'images/B.jpg', alt: '', contains: false },
+            { src: 'images/N3.jpg', alt: '', contains: true },
+            { src: 'images/Chinese.jpg', alt: '', contains: false }
           ]
+
         }
       ];
 
